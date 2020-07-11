@@ -5,7 +5,12 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\RestNbaPlayers.Application\RestNbaPlayers.Application.csproj" />
       <ProjectReference Include="..\RestNbaPlayers.Domain\RestNbaPlayers.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cosmonaut" Version="2.11.3" />
     </ItemGroup>
 
 </Project>

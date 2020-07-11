@@ -6,7 +6,6 @@
 
     <ItemGroup>
       <ProjectReference Include="..\RestNbaPlayers.Domain\RestNbaPlayers.Domain.csproj" />
-      <ProjectReference Include="..\RestNbaPlayers.Infrastructure\RestNbaPlayers.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>

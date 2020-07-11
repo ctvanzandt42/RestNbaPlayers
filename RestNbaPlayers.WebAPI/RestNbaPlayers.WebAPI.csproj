@@ -5,13 +5,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Controllers" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\RestNbaPlayers.Application\RestNbaPlayers.Application.csproj" />
       <ProjectReference Include="..\RestNbaPlayers.Domain\RestNbaPlayers.Domain.csproj" />
       <ProjectReference Include="..\RestNbaPlayers.Infrastructure\RestNbaPlayers.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Cosmonaut" Version="2.11.3" />
+      <PackageReference Include="Cosmonaut.Extensions.Microsoft.DependencyInjection" Version="2.3.0" />
     </ItemGroup>
 
 
