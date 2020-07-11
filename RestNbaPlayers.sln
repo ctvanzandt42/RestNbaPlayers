@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestNbaPlayers.Domain", "RestNbaPlayers.Domain\RestNbaPlayers.Domain.csproj", "{2F72B664-EE39-4166-B48C-B3265B9DDB3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestNbaPlayers.WebAPI", "RestNbaPlayers.WebAPI\RestNbaPlayers.WebAPI.csproj", "{9DDBD263-3547-4BF6-94A6-2695096BC5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestNbaPlayers.Infrastructure", "RestNbaPlayers.Infrastructure\RestNbaPlayers.Infrastructure.csproj", "{E687D640-9010-45F4-BE09-9081A352DE8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestNbaPlayers.Application", "RestNbaPlayers.Application\RestNbaPlayers.Application.csproj", "{8184ADEC-6097-48AF-A750-F0D881E2B434}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{58896676-DCCE-4238-BABC-BB7942949397}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestNbaPlayers.Application.UnitTests", "RestNbaPlayers.Application.UnitTests\RestNbaPlayers.Application.UnitTests.csproj", "{D3C2237D-2CA1-46CC-9538-5F6F5668A4F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F72B664-EE39-4166-B48C-B3265B9DDB3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F72B664-EE39-4166-B48C-B3265B9DDB3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F72B664-EE39-4166-B48C-B3265B9DDB3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F72B664-EE39-4166-B48C-B3265B9DDB3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDBD263-3547-4BF6-94A6-2695096BC5EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDBD263-3547-4BF6-94A6-2695096BC5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDBD263-3547-4BF6-94A6-2695096BC5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDBD263-3547-4BF6-94A6-2695096BC5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E687D640-9010-45F4-BE09-9081A352DE8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E687D640-9010-45F4-BE09-9081A352DE8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E687D640-9010-45F4-BE09-9081A352DE8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E687D640-9010-45F4-BE09-9081A352DE8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8184ADEC-6097-48AF-A750-F0D881E2B434}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8184ADEC-6097-48AF-A750-F0D881E2B434}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8184ADEC-6097-48AF-A750-F0D881E2B434}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8184ADEC-6097-48AF-A750-F0D881E2B434}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3C2237D-2CA1-46CC-9538-5F6F5668A4F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3C2237D-2CA1-46CC-9538-5F6F5668A4F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3C2237D-2CA1-46CC-9538-5F6F5668A4F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3C2237D-2CA1-46CC-9538-5F6F5668A4F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3C2237D-2CA1-46CC-9538-5F6F5668A4F4} = {58896676-DCCE-4238-BABC-BB7942949397}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\RestNbaPlayers.Domain\RestNbaPlayers.Domain.csproj" />
+      <ProjectReference Include="..\RestNbaPlayers.Infrastructure\RestNbaPlayers.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
